@@ -13,7 +13,7 @@
     --background: #FBFCFF;
     --blue: #3485FF;
     --overlay: #040911;
-    --icons-detalis: #A5B0C1;
+    --icons-details: #A5B0C1;
 
     --grey-dark: #4D5E77;
     --grey-blue: #A1B2CD;
@@ -26,6 +26,7 @@
 }
 
 body{
+    display: flex;
     height: 100vh;
     background: var(--background);
 }
