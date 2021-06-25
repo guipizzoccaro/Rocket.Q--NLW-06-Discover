@@ -19,6 +19,7 @@
     --grey-blue: #A1B2CD;
     --grey-medium: #D3D9E2;
     --grey-light: #E5EAF1;
+    --grey-medium:#eaecf2;
 
 
     font-size: 62.5% /*10px*/
@@ -66,7 +67,7 @@ body, button, input, text-area{
     border-width: 0;
 }
 
-/* Input and Buttons */
+/* -------Input and Buttons------- */
 input, button, .button{
     height: 5rem;
     border-radius: .8rem;
@@ -105,5 +106,16 @@ button.outlined,
     border: .2rem solid var(--blue);
 }
 
+button.red, 
+.button.red{
+    background: var(--red);
+    color: var(--white);
+}
+
+button.grey, 
+.button.grey{
+    background: var(--grey-light);
+    color: var(--grey-dark);
+}
 
 

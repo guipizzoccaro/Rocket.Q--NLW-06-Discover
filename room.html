@@ -9,6 +9,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style/global.css">
     <link rel="stylesheet" href="style/room.css">
+    <link rel="stylesheet" href="style/modal.css">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -62,9 +63,9 @@
 
                 <div class="questions">
                     <div class="question-wrapper">
-                        <div class="qustion-content">
+                        <div class="question-content">
                             <div class="user">
-                                <img src="assets/avatar.svg" alt="Avatar">
+                                <img src="assets/user.svg" alt="Avatar">
                             </div>
                             <div class="question">
                                 <p>Qual a diferença entre const, var e let no JS</p>
@@ -84,9 +85,9 @@
                     </div>
 
                     <div class="question-wrapper">
-                        <div class="qustion-content">
+                        <div class="question-content">
                             <div class="user">
-                                <img src="assets/avatar.svg" alt="Avatar">
+                                <img src="assets/user.svg" alt="Avatar">
                             </div>
                             <div class="question">
                                 <p>O que é NodeJS</p>
@@ -105,13 +106,15 @@
                         </div>
                     </div>
 
-                    <div class="question-wrapper">
-                        <div class="qustion-content">
+                    <div class="question-wrapper read">
+                        <div class="question-content">
                             <div class="user">
-                                <img src="assets/avatar.svg" alt="Avatar">
+                                <img src="assets/user.svg" alt="Avatar">
                             </div>
                             <div class="question">
-                                <p>O que é ReactJS</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad vel ut voluptate laborum
+                                    commodi, optio obcaecati doloribus ab magni! Dolorem perspiciatis ipsum facere
+                                    praesentium quis iure ipsa eligendi illum nihil!</p>
                             </div>
                         </div>
                         <div class="actions">
@@ -127,6 +130,26 @@
                         </div>
                     </div>
 
+                    <div class="question-wrapper read">
+                        <div class="question-content">
+                            <div class="user">
+                                <img src="assets/user.svg" alt="Avatar">
+                            </div>
+                            <div class="question">
+                                <p>O que é ReactJS</p>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <a href="#" class="check">
+                                <img src="assets/check.svg" alt="Marcar como lida">
+                                Pergunta lida
+                            </a>
+
+                        </div>
+                    </div>
+
+
+
                 </div>
 
             </section>
@@ -136,6 +159,26 @@
 
 
     </div>
+
+    <!-- MODAL -->
+    <div class="modal-wrapper">
+        <div class="modal">
+            <h2>Excluir Pergunta</h2>
+            <p>Tem certeza que você deseja excluir esta pergunta?</p>
+
+            <form action="">
+                <label class="sr-only" for-id="password">Digite sua senha admin</label>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha">
+
+                <div class="buttons">
+                    <div class="button grey">Cancelar</div>
+                    <button class="red">Sim, excluir</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
 </body>
 
 </html>
