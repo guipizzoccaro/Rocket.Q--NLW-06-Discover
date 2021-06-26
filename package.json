@@ -1,0 +1,27 @@
+{
+  "name": "ROCKETQ",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guipizzoccaro/Rocket.Q--NLW-06-Discover.git"
+  },
+  "author": "Guilherme Pizzoccaro <guilherme.pizzoccaro@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guipizzoccaro/Rocket.Q--NLW-06-Discover/issues"
+  },
+  "homepage": "https://github.com/guipizzoccaro/Rocket.Q--NLW-06-Discover#readme",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "keywords": [],
+  "description": "Projeto direcionado a conhecer melhor as tecnologias utilizado nas trilhas Discover",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
